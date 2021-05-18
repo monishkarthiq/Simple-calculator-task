@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Simple Calculator</title>
+</head>
+
+<body>
+    <div id="main">
+      <div class="block">
+        <div id="calculator">
+          <div><h1>Simple Calculator</h1></div>
+          <div><h4 class="textContent">Operand 1</h4></div>
+          <input type="text" name="input01" id="input01"/>
+          <div><h4 class="textContent">Operand 2</h4></div>
+          <input type="text" name="input02" id="input02"/>
+          <div class="btn-group" role="group">
+            <button id="btn1" class="btn btn-warning" value="+" onclick="btn01()">+</button>
+            <button id="btn2" class="btn btn-warning" value="-" onclick="btn02()">-</button>
+            <button id="btn3" class="btn btn-warning" value="*" onclick="btn03()">*</button>
+            <button id="btn4" class="btn btn-warning" value="/" onclick="btn04()">/</button>
+            <button id="btn5" class="btn btn-warning" value="%" onclick="btn05()">%</button>
+          </div>
+          <h5 class="output"> </h5>
+        </div>
+      </div>
+      
+    </div>
+    <script src="script.js"></script>
+  </body>

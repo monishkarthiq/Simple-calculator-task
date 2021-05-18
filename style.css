@@ -1,0 +1,174 @@
+body {
+    font-size: 18px;
+    background-color: #457b9d;
+    
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#calculator {
+    background-color: #faedcd;
+    margin-top: 3em;
+    border: 1px solid red;
+    height: 35rem;
+    width: 40rem;
+    padding: 5rem;    
+}
+
+#input01 {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+}
+
+
+#input02 {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+}
+
+
+.btn-group {
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.output {
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.textContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.block {
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    background-color: #14213d;
+} */
+
+
+
+/* .m-5 {
+    margin : 50rem !imptant;or
+  } */
+
+
+
+
+/* * {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+#calculator {
+    width: 300px;
+    border: solid;
+
+}
+#input10{
+    margin: 10px;
+    width: 80%;
+    float: left;
+}
+
+#input20 {
+    margin: 10px;
+    width: 50px;
+}
+
+#input30 {
+    margin: 10px;
+    width: 80%;
+} */
